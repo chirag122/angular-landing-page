@@ -1,0 +1,36 @@
+<div class="container-fluid" style="padding-right: 0px; padding-bottom: 10px;">
+    <div class="row wrap">
+        <div class="col-md-4 py-5 text-center logo">
+            <img src="../../assets/adisun_logo_new-1.png" alt="logo">
+        </div>
+        <div class="col-md-8 col9 d-flex align-items-start flex-column" style="
+        padding-left: 12px;
+        padding-right: 1px;">
+            <div class="mb-auto p-2 row w-100">
+                <div class="col-md-3"><strong>WRITE US :</strong> contact@adisun.co.in</div>
+                <div class="col-md-3"><strong>CALL US :</strong> + 91-8888 6666 88</div>
+                <div class="col-md-6"><strong>US :</strong> O -1 RPTS road, Laxmi Nagar. Near Jerryl lawns . Nagpur</div>
+            </div>
+            <ul *ngIf="switchmenu" class="p-3 menu1" style="list-style-type: none;">
+                <li class="mx-3 h4"><a href="#">Home</a></li>
+                <li class="mx-3 h4"><a href="#about">About Us</a></li>
+                <li class="mx-3 h4"><a href="#our-project">Our Projects</a></li>
+                <li class="mx-3 h4"><a href="#awards">Awards</a></li>
+                <li class="mx-3 h4"><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div *ngIf="!switchmenu" class="row primary m-0 bg-primary menu2">
+                <nav class="">
+                    <label class="text-center" for="touch"><h4><span style="padding-top: 11px; padding-bottom: 11px;">Menu</span></h4></label>               
+                    <input type="checkbox" id="touch"> 
+                    <ul class="slide" style="margin-bottom: 0px;">
+                      <li><a href="#">Home</a></li> 
+                      <li><a href="#about">About Us</a></li>
+                      <li><a href="#our-project">Our Projects</a></li>
+                      <li><a href="#awards">Awards</a></li>
+                      <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                  </nav> 
+            </div>
+        </div>
+    </div>
+</div>

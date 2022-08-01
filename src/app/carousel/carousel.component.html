@@ -1,0 +1,61 @@
+<div class="wrapper">
+  <input [checked]="checked" type=radio name="slider" id="slide1" />
+  <input type=radio name="slider" id="slide2" />
+  <input type=radio name="slider" id="slide3" />
+  <input type=radio name="slider" id="slide4" />
+  <input type=radio name="slider" id="slide5" />
+
+  <div class="slider-wrapper">
+    <div class=inner>
+      <article>
+        <div class="info top-right">
+          <h3><b>ATHARVA RESIDENCES</b></h3></div>
+        <img class="zoom-in-zoom-out" src="https://adisun.dev.prismitservices.in/wp-content/uploads/2022/06/a-square-banner.jpg" />
+      </article>
+
+      <article>
+        <div class="info top-right">
+          <h3><b>ADISON BLISS</b></h3></div>
+        <img src="https://adisun.dev.prismitservices.in/wp-content/uploads/2022/06/bliss.jpg" />
+      </article>
+
+      <article>
+        <div class="info top-right">
+          <h3><b>ADISUN ELITE</b></h3></div>
+        <img src="https://adisun.dev.prismitservices.in/wp-content/uploads/2022/06/as-squre-b-1.jpg" />
+      </article>
+
+      <article>
+        <div class="info top-right">
+          <h3 class="text-dark"><b>ADISUN TERRACES</b></h3></div>
+        <img src="https://adisun.dev.prismitservices.in/wp-content/uploads/2022/06/atharva-banner.jpg" />
+      </article>
+
+      <article>
+        <div class="info top-right">
+          <h3><b>ADISON AVENUE</b></h3></div>
+        <img src="https://adisun.dev.prismitservices.in/wp-content/uploads/2022/06/adi-tarrace-banner.jpg" />
+      </article>
+    </div>
+    <!-- .inner -->
+  </div>
+  <!-- .slider-wrapper -->
+
+  <div class="slider-prev-next-control">
+    <label for=slide1></label>
+    <label for=slide2></label>
+    <label for=slide3></label>
+    <label for=slide4></label>
+    <label for=slide5></label>
+  </div>
+  <!-- .slider-prev-next-control -->
+
+  <div class="slider-dot-control">
+    <label #slide1 class="mx-1 mb-3" for=slide1></label>
+    <label #slide2 class="mx-1 mb-3" for=slide2></label>
+    <label #slide3 class="mx-1 mb-3" for=slide3></label>
+    <label #slide4 class="mx-1 mb-3" for=slide4></label>
+    <label #slide5 class="mx-1 mb-3" for=slide5></label>
+  </div>
+  <!-- .slider-dot-control -->
+</div>

@@ -1,0 +1,45 @@
+.wrapper {
+    width: 100%;
+    margin-left: auto;
+    // margin-right: auto;
+    height: auto;
+    background-color: rgb(197, 196, 196);
+}
+.responsive {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 8px solid white;
+    width: 400px;
+}
+
+.our-awards {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img {
+    margin-right: 100px;
+}
+
+.heading {
+    border-bottom: 2px solid black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+    font-size: 25px;
+}
+
+b {
+    font-weight: bolder;
+}
+@media screen and (max-width: 580px){
+    img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
